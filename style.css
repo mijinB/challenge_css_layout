@@ -9,3 +9,32 @@ body {
   height: 100vh;
   margin:0 auto;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main main-next"
+    "footer footer footer";
+  gap: 10px;
+}
+
+header {
+  grid-area: header;
+  background-color: red;
+}
+
+.main {
+  grid-area: main;
+  background-color: aqua;
+}
+
+.main-next {
+  grid-area: main-next;
+  background-color: aquamarine;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blue;
+}
