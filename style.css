@@ -4,67 +4,7 @@ body {
   background-color:#DDE1D4;
   padding:15px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  max-width: 650px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin:0 auto;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "bad bad bad-next"
-    "religion religion religion";
-  grid-template-columns: 1fr 1.5fr 1.3fr;
-  grid-template-rows: 1fr 4fr 3.5fr;
-  gap: 15px;
-}
-
-header {
-  grid-area: header;
-  display: grid;
-  grid-template-columns: 1fr 1.6fr 1.2fr;
-  align-content: flex-end;
-  padding: 15px;
-  background-color: black;
-  color: #DDE1D4;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.main {
-  grid-area: bad;
-  display: flex;
-  align-items: flex-end;
-  padding: 0 5px;
-  background-color: #F04011;
-  font-size: 190px;
-  font-weight: 700;
-  letter-spacing: -10px;
-}
-
-.main-next {
-  grid-area: bad-next;
-  background-color: #F04011;
-}
-
-footer {
-  grid-area: religion;
-  padding: 0 0 30px 0;
-  background-color: #F04011;
-}
-footer .religion {
-  padding: 0 5px;
-  font-size: 190px;
-  font-weight: 700;
-  letter-spacing: -11px;
-}
-footer .sub-religion {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 40px 15px;
-  color: #DDE1D4;
-  font-size: 30px;
-  font-weight: 600;
 }
